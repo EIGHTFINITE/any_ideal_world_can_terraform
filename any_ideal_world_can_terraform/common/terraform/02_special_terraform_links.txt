@@ -1457,7 +1457,14 @@ terraform_link = {
 	}
 
 	condition = {
-		has_ascension_perk = ap_hydrocentric
+		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
+			has_ascension_perk = ap_detox
+		}
 		has_technology = "tech_climate_restoration"
 	}
 
@@ -4014,6 +4021,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4055,6 +4067,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4096,6 +4113,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4137,6 +4159,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4178,6 +4205,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4219,6 +4251,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4268,6 +4305,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4309,6 +4351,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4350,6 +4397,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -4391,6 +4443,11 @@ terraform_link = {
 	}
 	condition = {
 		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
 			has_ascension_perk = ap_detox
 			has_country_flag = knights_detox
 		}
@@ -5739,7 +5796,13 @@ terraform_link = {
 		has_country_flag = allow_terraforming_into_volcanic
 	}
 	condition = {
-		has_ascension_perk = "ap_detox"
+		OR = {
+			has_ascension_perk = ap_world_shaper
+			has_ascension_perk = ap_arcology_project
+			has_ascension_perk = ap_hive_worlds
+			has_ascension_perk = ap_machine_worlds
+			has_ascension_perk = ap_hydrocentric
+		}
 		has_technology = "tech_climate_restoration"
 	}
 
