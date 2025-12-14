@@ -1,0 +1,31 @@
+# Root = country
+# This = planet
+# Checked if the planet is special terraforming candidate and the country has the required matching ascension perk to do it
+has_ascension_for_terraforming_candidate = {
+	exists = root
+	OR = {
+		AND = {
+			#No ascension perk required for terraforming_candidate modifier
+			has_modifier = terraforming_candidate
+		}
+		AND = {
+			root = {
+				OR = {
+					has_ascension_perk = ap_detox
+					has_origin = origin_fallen_empire_hive
+					has_country_flag = knights_detox
+				}
+			}
+			has_modifier = toxic_terraforming_candidate
+		}
+		AND = {
+			root = {
+				OR = {
+					has_ascension_perk = ap_hydrocentric
+					has_origin = origin_fallen_empire_hive
+				}
+			}
+			has_modifier = frozen_terraforming_candidate
+		}
+	}
+}
