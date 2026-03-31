@@ -1708,6 +1708,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -1753,6 +1770,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -1786,6 +1820,23 @@ terraform_link = {
 						has_trait = trait_mechanical
 					}
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -1825,6 +1876,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -1858,6 +1926,23 @@ terraform_link = {
 						has_trait = trait_mechanical
 					}
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -1897,6 +1982,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -1930,6 +2032,23 @@ terraform_link = {
 						has_trait = trait_mechanical
 					}
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -1969,6 +2088,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2002,6 +2138,23 @@ terraform_link = {
 						has_trait = trait_mechanical
 					}
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -2041,6 +2194,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2077,6 +2247,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2110,6 +2297,23 @@ terraform_link = {
 						has_trait = trait_mechanical
 					}
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -2592,6 +2796,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2635,6 +2856,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2666,6 +2904,23 @@ terraform_link = {
 				any_owned_species = {
 					NOT = { has_trait = trait_hive_mind }
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -2707,6 +2962,23 @@ terraform_link = {
 				is_colony = no
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2738,6 +3010,23 @@ terraform_link = {
 				any_owned_species = {
 					NOT = { has_trait = trait_hive_mind }
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -2775,6 +3064,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2806,6 +3112,23 @@ terraform_link = {
 				any_owned_species = {
 					NOT = { has_trait = trait_hive_mind }
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -2843,6 +3166,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2874,6 +3214,23 @@ terraform_link = {
 				any_owned_species = {
 					NOT = { has_trait = trait_hive_mind }
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -2911,6 +3268,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2945,6 +3319,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -2976,6 +3367,23 @@ terraform_link = {
 				any_owned_species = {
 					NOT = { has_trait = trait_hive_mind }
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
@@ -5584,6 +5992,23 @@ terraform_link = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
+				}
+			}
+		}
 	}
 }
 
@@ -5776,6 +6201,23 @@ terraform_link = {
 				any_owned_species = {
 					NOT = { has_trait = trait_hive_mind }
 					is_sapient = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				any_owned_planet = { is_terraforming = yes }
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				OR = {
+					has_deficit = energy
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = consumer_goods
 				}
 			}
 		}
