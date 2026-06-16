@@ -398,7 +398,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -433,7 +433,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -467,7 +467,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -502,7 +502,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -537,7 +537,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -572,7 +572,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -606,7 +606,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -641,7 +641,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -676,7 +676,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -726,7 +726,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -770,7 +770,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -814,7 +814,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -6423,7 +6423,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_planet_flag = terraform_nucleus_transfixed }
+			from = { has_carrier_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
