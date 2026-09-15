@@ -361,11 +361,7 @@ terraform_link = {
 		}
 		modifier = {
 			factor = 4
-			has_trait = trait_aquatic
-		}
-		modifier = {
-			factor = 4
-			has_trait = trait_robot_aquatic
+			has_aquatic_trait = yes
 		}
 	}
 }
@@ -398,7 +394,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -433,7 +429,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -467,7 +463,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -502,7 +498,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -537,7 +533,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -572,7 +568,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -606,7 +602,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -641,7 +637,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -676,7 +672,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -694,7 +690,7 @@ terraform_link = {
 					percentage >= 0.5
 					limit = {
 						OR = {
-							has_trait = trait_aquatic
+							has_aquatic_trait = yes
 							has_trait = trait_robot_aquatic
 						}
 					}
@@ -726,7 +722,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -770,7 +766,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -814,7 +810,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -1068,11 +1064,7 @@ terraform_link = {
 		weight = 5
 		modifier = {
 			factor = 4
-			has_trait = trait_aquatic
-		}
-		modifier = {
-			factor = 4
-			has_trait = trait_robot_aquatic
+			has_aquatic_trait = yes
 		}
 	}
 }
@@ -1418,11 +1410,7 @@ terraform_link = {
 		weight = 5
 		modifier = {
 			factor = 4
-			has_trait = trait_aquatic
-		}
-		modifier = {
-			factor = 4
-			has_trait = trait_robot_aquatic
+			has_aquatic_trait = yes
 		}
 	}
 }
@@ -1450,7 +1438,7 @@ terraform_link = {
 	potential = {
 		exists = owner
 		OR  = {
-			has_trait = trait_aquatic
+			has_aquatic_trait = yes
 			has_trait = trait_robot_aquatic
 		}
 		from = { has_modifier = frozen_terraforming_candidate }
@@ -1469,11 +1457,7 @@ terraform_link = {
 		weight = 5
 		modifier = {
 			factor = 4
-			has_trait = trait_aquatic
-		}
-		modifier = {
-			factor = 4
-			has_trait = trait_robot_aquatic
+			has_aquatic_trait = yes
 		}
 	}
 }
@@ -2675,11 +2659,7 @@ terraform_link = {
 		}
 		modifier = {
 			factor = 4
-			has_trait = trait_aquatic
-		}
-		modifier = {
-			factor = 4
-			has_trait = trait_robot_aquatic
+			has_aquatic_trait = yes
 		}
 	}
 }
@@ -3918,7 +3898,7 @@ terraform_link = {
 		weight = 10
 		modifier = {
 			factor = 2
-			has_trait = trait_aquatic
+			has_aquatic_trait = yes
 		}
 		modifier = {
 			factor = 2
@@ -4411,7 +4391,7 @@ terraform_link = {
 	}
 
 	inline_script = {
-		script = terraform/wilderness_biomass 
+		script = terraform/wilderness_biomass
 	}
 
 	duration = @nukedTime
@@ -4641,11 +4621,7 @@ terraform_link = {
 		weight = 5
 		modifier = {
 			factor = 4
-			has_trait = trait_aquatic
-		}
-		modifier = {
-			factor = 4
-			has_trait = trait_robot_aquatic
+			has_aquatic_trait = yes
 		}
 	}
 }
@@ -4977,7 +4953,7 @@ terraform_link = {
 		weight = 10
 		modifier = {
 			factor = 2
-			has_trait = trait_aquatic
+			has_aquatic_trait = yes
 		}
 		modifier = {
 			factor = 2
@@ -6354,7 +6330,7 @@ terraform_link = {
 
 	potential = {
 		OR = {
-			from = { has_carrier_flag = terraform_nucleus_transfixed }
+			from = { has_planet_flag = terraform_nucleus_transfixed }
 			AND = {
 				exists = owner
 				has_ascension_perk = "ap_world_shaper"
@@ -6366,4 +6342,3 @@ terraform_link = {
 		weight = 1
 	}
 }
-
