@@ -6398,3 +6398,118 @@ terraform_link = {
 		weight = 1
 	}
 }
+
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_ocean"
+
+	resources = {
+		category = terraforming_ocean
+
+		inline_script = {
+			script = terraform/triggered_costs
+			ENERGY_COST = @gaiaCost
+			BIOMASS_COST = @gaiaBiomassCost
+		}
+	}
+
+	inline_script = {
+		script = terraform/wilderness_biomass
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_hydrocentric
+	}
+
+	condition = {
+		from = {
+			OR = {
+				is_owned_by = root
+				NOT = { has_modifier = "holy_planet" }
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+terraform_link = {
+	from = "pc_relic"
+	to = "pc_ocean"
+
+	resources = {
+		category = terraforming_ocean
+
+		inline_script = {
+			script = terraform/triggered_costs
+			ENERGY_COST = @machineCost
+			BIOMASS_COST = @machineBiomassCost
+		}
+	}
+
+	inline_script = {
+		script = terraform/wilderness_biomass
+	}
+
+	duration = @machineTime
+
+	potential = {
+		exists = owner
+		has_technology = tech_climate_restoration
+		is_wilderness_empire = yes
+	}
+
+	effect = {
+		from = {
+			reroll_deposits = yes
+			clear_blockers = yes
+		}
+	}
+
+	ai_weight = {
+		weight = 20
+	}
+}
+
+terraform_link = {
+	from = "pc_city"
+	to = "pc_ocean"
+
+	resources = {
+		category = terraforming_ocean
+
+		inline_script = {
+			script = terraform/triggered_costs
+			ENERGY_COST = @machineCost
+			BIOMASS_COST = @machineBiomassCost
+		}
+	}
+
+	inline_script = {
+		script = terraform/wilderness_biomass
+	}
+
+	duration = @machineTime
+
+	potential = {
+		exists = owner
+		has_technology = tech_climate_restoration
+		is_wilderness_empire = yes
+	}
+
+	effect = {
+		from = {
+			reroll_deposits = yes
+			clear_blockers = yes
+		}
+	}
+
+	ai_weight = {
+		weight = 20
+	}
+}
