@@ -6398,3 +6398,32 @@ terraform_link = {
 		weight = 1
 	}
 }
+
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_ocean"
+
+	resources = {
+		category = terraforming
+
+		inline_script = {
+			script = terraform/triggered_costs
+			ENERGY_COST = @gaiaCost
+			BIOMASS_COST = @gaiaBiomassCost
+		}
+	}
+
+	inline_script = {
+		script = terraform/wilderness_biomass
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		has_ascension_perk = "ap_hydrocentric"
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
